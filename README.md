@@ -62,6 +62,5 @@ This project predicts housing prices using Machine Learning. It uses the **Calif
 ```bash
 git clone <your-repo-link>
 cd housing_price
-python m
-ain.py
+python main.py
 This project is licensed under the MIT License.
