@@ -1,26 +1,67 @@
-# Housing Prices
+# 🏠 Housing Prices Prediction using AI (Random Forest)
 
-## Overview
-This project analyzes housing prices using various data science techniques. 
+## 📌 Overview
+This project predicts housing prices using Machine Learning. It uses the **California Housing Dataset** and trains a **Random Forest Regressor**. A complete ML pipeline is built for preprocessing, training, and inference.
 
-## Getting Started
-Clone the repository to your local machine using:
-```
-git clone https://github.com/Yaniyamalik/Housing_prices.git
-```
+---
 
-## Requirements
-- Python 3.x
-- Libraries: pandas, numpy, scikit-learn, matplotlib, etc.
+## 🚀 Features
+- Uses California Housing Dataset  
+- Data preprocessing using pipeline (imputation + transformation)  
+- Random Forest model for prediction  
+- Automatic dataset handling (load from CSV if needed)  
+- Train-test split for evaluation  
+- Model and pipeline saved using `.pkl` files  
+- Inference on test data  
 
-## Usage
-To run the analysis, execute the following command:
-```
-python main.py
-```
+---
 
-## Author
-Yaniyamalik
+## 🧠 Tech Stack
+- Python  
+- Scikit-learn  
+- Pandas  
+- NumPy  
+- Pickle  
 
-## License
+---
+
+## 📂 Project Workflow
+
+### 1. Data Loading
+- Load dataset from saved files OR fallback to CSV  
+
+### 2. Data Preprocessing
+- Handle missing values using imputation  
+- Apply transformations  
+- Save pipeline as:pipieline.pkl
+
+
+### 3. Train-Test Split
+- Split dataset into training and testing sets  
+
+### 4. Model Training
+- Train using Random Forest Regressor  
+- Save trained model as:model.pkl
+  
+### 5. Model Evaluation
+- Test model on unseen test data  
+- Generate predictions  
+
+### 6. Inference
+- Load saved model and pipeline  
+- Predict housing prices on test data  
+
+---
+
+
+---
+
+## ⚙️ How to Run
+
+### 1. Clone Repository
+```bash
+git clone <your-repo-link>
+cd housing_price
+python m
+ain.py
 This project is licensed under the MIT License.
